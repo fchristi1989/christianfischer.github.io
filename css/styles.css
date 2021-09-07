@@ -22,12 +22,12 @@ body {
 
 ::selection {
     color: #fff;
-    background: #CC4646;
+    background: steelblue;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #CC4646;
+    background: steelblue;
 }
 
 p {
@@ -69,7 +69,7 @@ p {
     }
 
 a {
-    color: #CC4646;
+    color: steelblue;
     text-decoration: none;
     text-shadow: none;
     -webkit-transition: all 0.2s linear;
@@ -80,7 +80,8 @@ a {
 }
 
     a:hover {
-        color: #DF3927;
+        /*color: #DF3927;*/
+        color: darkgray;
         text-decoration: none;
     }
 
@@ -89,11 +90,12 @@ a {
     border-radius: 0px;
 }
 .btn:hover {
-background: #E24040;
+/*background: #E24040;*/
+background: darkgray;
 }
 
 .btn-primary {
-    background: #CC4646;
+    background: steelblue;
 }
 
 .form-control {
@@ -119,7 +121,7 @@ background: #E24040;
     bottom: 20px;
     right: 20px;
     z-index: 5;
-	background: #CC4646;
+	background: steelblue;
 }
 .topHome .fa-2x {
 font-size: 20px;
@@ -131,38 +133,38 @@ margin: 4px;
 .header {
     position: fixed;
     width: 100%;
-    background: #CC4646;
+    background: steelblue;
     z-index: 50;
     border-radius: 0;
     top: 0px;
-    border-bottom: 1px solid #F57676;
+    border-bottom: 1px solid steelblue;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #CC4646;
-    background-color: #CC4646;
+    border-color: steelblue;
+    background-color: steelblue;
 }
 .header .navbar {
 margin: 0;
 background: transparent !important;
 }
     .navbar-inverse .navbar-toggle .icon-bar {
-        /*background-color: #CC4646;*/;
+        /*background-color: steelblue;*/
     }
 
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-        background: #CC4646;
+        background: steelblue;
     }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #CC4646;
+    color: steelblue;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
     background: #fff;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #FFB8B8;
+	color: lightgrey;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 color: #FFFFFF;
@@ -176,7 +178,7 @@ background: none;
 /*.carousel-inner*/
 #myCarousel {
     margin-top: 50px;
-    border-bottom: 4px solid #CC4646;
+    border-bottom: 4px solid steelblue;
 }
 
 .carousel-inner > .item {
@@ -208,7 +210,7 @@ background: none;
 
 .actionPanel {
     padding: 25px 0;
-    background: #CC4646;
+    background: steelblue;
 }
 
     .actionPanel h3 {
@@ -216,7 +218,7 @@ background: none;
     }
 
 .circle {
-    background: #CC4646;
+    background: steelblue;
     height: 60px;
     width: 60px;
     border-radius: 35px;
@@ -229,17 +231,19 @@ background: none;
     padding: 16px 15px;
     line-height: 18px;
     height: 50px;
-    /*color:#CC4646;*/;
+    /*color:steelblue;*/;
+    color: white;
 }
 
 .navbar-brand b {
     color: #fff;
-	font-family: 'Pacifico', cursive;
-	font-weight:400;
+    font-family: 'Source Sans Pro', sans-serif;
+	/*font-weight:400;*/
 }
 
 .logo {
-    font-size: 2.2em;
+    /*font-size: 2.2em;*/
+    font-size: 140%;
     text-shadow: none;
     margin: 8px 0 0 0;
 }
@@ -297,7 +301,7 @@ background: none;
     }
 
 .page-section h2 {
-    color: #CC4646;
+    color: steelblue;
 }
 
 .page-section p {
@@ -310,7 +314,7 @@ background: none;
 }
 
     .darkBg .fa {
-        color: #CC4646;
+        color: steelblue;
     }
 /*--- Banner ----*/
 .banner-container {
@@ -459,7 +463,7 @@ margin-top: 5px;
 background-color: #D6D6D6;
 }
 .progress .progress-bar {
-background-color: #CC4646;
+background-color: steelblue;
 }
 /*Skills*/
 
@@ -475,7 +479,7 @@ background-color: #CC4646;
   position: absolute;
   content: " ";
   width: 2px;
-  background-color: #CC4646;
+  background-color: steelblue;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -493,7 +497,7 @@ background-color: #CC4646;
   top: 20px;
   left: 50%;
   margin-left: -25px;
-  background-color: #CC4646;
+  background-color: steelblue;
   z-index: 36;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -518,7 +522,7 @@ display: inherit;
   top: 40px;
 }
 #timeline .timeline-badge.timeline-filter-movement a span {
-  color: #CC4646;
+  color: steelblue;
   font-size: 1.3em;
   top: -1px;
 }
@@ -531,13 +535,13 @@ display: inherit;
   margin-left: -18px;
 }
 #timeline .timeline-badge.timeline-future-movement a span {
-  color: #CC4646;
+  color: steelblue;
   font-size: .9em;
   top: 2px;
   left: 1px;
 }
 #timeline .timeline-movement {
-  border-bottom: dashed 1px #CC4646;
+  border-bottom: dashed 1px steelblue;
   position: relative;
 }
 #timeline .timeline-movement.timeline-movement-top {
@@ -624,7 +628,7 @@ display: inherit;
 .team-member .member-img img {
     max-width: 250px;
     margin: 0 auto;
-    border: 1px solid #CC4646;
+    border: 1px solid steelblue;
 }
 
 .team-member h4 {
@@ -708,12 +712,12 @@ nav#filter {
     nav#filter a {
         padding: 4px 12px;
         line-height: 20px;
-        border: 1px solid #CC4646;
+        border: 1px solid steelblue;
         text-decoration: none;
     }
 
 .current {
-    background: #CC4646;
+    background: steelblue;
     color: #fff;
 }
 
@@ -753,7 +757,7 @@ nav#filter {
 }
 
 .portfolio-item:hover .portfolio-desc {
-    padding-top: 20%;
+    padding-top: 15%;
     height: 100%;
     transition: all 200ms ease-in-out 0s;
     opacity: 1;
@@ -787,7 +791,7 @@ nav#filter {
 }
 
 .portfolio-item .portfolio-desc .folio-info h5 {
-    text-transform: uppercase;
+    
     text-align: center;
     font-weight: bold;
     font-size: 1.4em;
@@ -896,7 +900,8 @@ footer {
 }
 
 .social a:hover {
-    color: #c0392b;
+    /*color: #c0392b;*/
+    color: darkgray;
 }
 
 .social a {

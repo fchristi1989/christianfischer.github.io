@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+body { background-color:black; font-family:'Source Sans Pro',sans-serif;}
+
+header {
+    background-color:steelblue;
+    height:40px;
+    position: fixed;
+    width:100%;
+    padding: 16px 15px;
+    line-height: 34px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+footer {background-color:steelblue;}
+
+
+.infoboxfarbe {background-color:rgb(199, 215, 179);}
+.navigationsboxfarbe {background-color:rgb(242, 232, 198);}
+
+.farbeschwarz {background-color:black;}
+
+h1 { font-family:Tahoma,sans-serif; text-decoration:underline; font-size:250%; color:black; text-align:center; } 
+hinfo { font-family:Tahoma,sans-serif; text-decoration:underline; font-size:150%; color:black; text-align:center; }
+
+h2 { font-family:Tahoma,sans-serif; text-decoration:underline; font-size:120%; color:black; text-align:left; } 
+
+h5 { font-family:Tahoma,sans-serif; font-size:250%; color:steelblue; text-align:center; }
+h7 { font-family:Tahoma,sans-serif; font-size:50%; color:grey; text-align:center; }
+h8 { font-family:Tahoma,sans-serif; font-size:100%; color:black; }
+h9 { font-family:Tahoma,sans-serif; font-size:70%; color:black; }
+h10 { font-family:Tahoma,sans-serif; font-size:150%; color:black; }
+
+h6 { font-family:Tahoma,sans-serif; font-size:120%; color:grey; text-align:center; }
+h4 { font-family:Tahoma,sans-serif; font-size:100%; color:grey; text-align:center; }
+h3 { font-family:Tahoma,sans-serif; font-size:120%; color:white; text-align:left; }
+
+.font1 { font-size:250%; color:steelblue; text-align:left; }
+.font2 { font-size:100%; color:#DDDDDD; text-align:left; }
+.font3 { font-size:100%; color:#DDDDDD; }
+.font4 { font-size:125%;  color: #fff; margin-left: 55px;}
+.fontLink { font-size:100%; color:gray; text-decoration: underline; }
+.font5 { font-size:120%; color:steelblue; text-align:left; }
+.font6 { font-size:80%; color:white; text-align:center; }
+
+
+
+p { font-family:Times-New-Roman; color: black; }
+
+mylinks {text-indent: 2.0em; color:black; text-align:right;}
+
+.punkteboden {border-bottom:dotted;}
+ 
+a {
+    font-size:100%;
+    color:#DDDDDD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray
+}
+
+.social {
+    text-align:center
+}
+
+.social a:hover {
+    color: darkgray;
+}
+
+.social a {
+    font-size: 32px;
+    margin: 0 10px;
+    color: #c7c7c7;
+}
+
+
+
+.box {
+    width:80%;
+    background-color: #222;
+    border-radius: 0 0 0 0;
+    margin:  20px auto;
+    margin-top: 90px;
+    padding: 2em;
+  }
+
